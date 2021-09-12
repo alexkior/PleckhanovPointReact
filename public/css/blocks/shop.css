@@ -1,0 +1,201 @@
+
+.shop__filters {
+  padding-top: 40px;
+  width: 100%;
+  min-height: 250px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+  grid-area: 'left-part';
+}
+
+.shop__cards {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  min-height: 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 60px;
+  row-gap: 120px;
+  
+  justify-content: center;
+  align-items: baseline;
+  justify-items: center;
+  align-content: start;
+
+  grid-area: 'right-part';
+}
+
+.shop__card {
+  cursor: pointer;
+  height: 300px;
+  width: 100%;
+  min-width: 170px;
+}
+
+.shop__card_inner {
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(270deg, rgba(13, 71, 145, 1) 0%, rgba(137, 25, 106, 1) 100%);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.shop__card_inner:hover {
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(270deg, rgb(14, 82, 170) 0%, rgb(156, 25, 119) 100%);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.shop__card_pic {
+  width: 140px;
+  height: 140px;
+  background-image: url('../../img/tovar.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.shop__card_name {
+  height: 20px;
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 0.938rem;
+  font-weight: 500;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.shop__card_button-box {
+  width: 140px;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shop__card_button {
+  width: 70%;
+  background-color: #fff;
+  height: 30px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop__card_button-text {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #89196A;
+  font-size: 0.938rem;
+  font-weight: 700;
+}
+
+.shop__card_button-small {
+  width: 30px;
+  background-color: #fff;
+  height: 30px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop__card_button-icon {
+  width: 20px;
+  height: 20px;
+  -webkit-mask: url('/public/img/svg/question.svg') no-repeat center;
+  mask: url('/public/img/svg/question.svg') no-repeat center;
+  background-color: #89196A;
+}
+
+.shop__card_text {
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 0.938rem;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 1024px) {
+
+.shop__filters {
+  width: 100%;
+  min-height: 250px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  
+  grid-area: 'left-part';
+}
+
+.shop__cards {
+  padding-bottom: 20px;
+  width: 100%;
+  min-height: 250px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  column-gap: 20px;
+  row-gap: 60px;
+  justify-content: center;
+  align-items: baseline;
+  justify-items: center;
+  align-content: start;
+
+  grid-area: 'right-part';
+}
+
+.shop__card {
+  cursor: pointer;
+  height: 300px;
+  width: 80%;
+  min-width: 170px;
+}
+
+.shop__card_inner {
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(270deg, rgba(13, 71, 145, 1) 0%, rgba(137, 25, 106, 1) 100%);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+}

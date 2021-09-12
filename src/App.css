@@ -1,0 +1,161 @@
+.App {
+
+  
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  min-height: 1024px;
+  margin: 0;
+  padding: initial;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+a {
+  text-transform: none;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 320px;
+
+  background-color: #27294E;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.header__inner {
+  min-width: 720px;
+  width: 60%;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 140px 150px;
+
+  align-items: end;
+}
+
+
+
+
+.header__nav-bar {
+  margin: 0;
+
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav {
+  width: 18%;
+  height: 30px;
+
+  border-radius: 5px;
+
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__nav_profile {
+  background-color: #89196A;
+}
+
+.header__nav_profile-active {
+  background-color: #D17E00;
+}
+
+.header__nav_profile-active:hover {
+  background-color: #89196A;
+}
+
+.header__nav_scores {
+  right: -20%;
+
+  position: relative;
+  background-color: #fff;
+  width: 60px;
+  height: 36px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__nav_scores-text {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #89196A;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.header__nav:hover {
+  background-color: #D17E00;
+}
+
+.header__nav_active {
+  background-color: #D17E00;
+}
+
+.header__nav-text {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.header__title-box {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__title {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 67px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+}
