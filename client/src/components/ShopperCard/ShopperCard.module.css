@@ -1,0 +1,232 @@
+
+.shopper__card {
+  height: 250px;
+  width: 100%;
+  min-width: 170px;
+}
+
+.shopper__card:hover .shopper__card_name{
+  animation: 1s shopperCard infinite linear;
+  font-weight: 700;
+}
+
+
+.shopper__card:hover .shopper__card_inner {
+  background: linear-gradient(270deg, #1377fa80 0%, #d823a580 100%);
+}
+
+.shopper__card_inner {
+  height: 250px;
+  width: 100%;
+  background: linear-gradient(270deg, rgba(13, 71, 145, 0.5) 0%, rgba(137, 25, 106, 0.5) 100%);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.shopper__card_pic {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  background-image: url('../../img/tovar.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+
+  top: -30px;
+}
+
+.shopper__card_name {
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 0.938rem;
+  font-weight: 500;
+}
+
+.shopper__card_buttonbox {
+  width: 140px;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shopper__card_button {
+  width: 70%;
+  background-color: #fff;
+  height: 30px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopper__card_buttontext {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #89196A;
+  font-size: 0.938rem;
+  font-weight: 700;
+}
+
+.shopper__card_buttonsmall {
+  width: 30px;
+  background-color: #fff;
+  height: 30px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopper__card_buttonicon {
+  width: 20px;
+  height: 20px;
+  -webkit-mask: url('../../img/svg/question.svg') no-repeat center;
+  mask: url('../../img/svg/question.svg') no-repeat center;
+  background-color: #89196A;
+}
+
+
+.shopper__card_text {
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 0.938rem;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 1024px) {
+  .shopper__card {
+    height: 250px;
+    width: 80%;
+    min-width: 170px;
+  }
+  
+  .shopper__card_inner {
+    height: 250px;
+    width: 100%;
+    background: linear-gradient(270deg, rgba(13, 71, 145, 0.5) 0%, rgba(137, 25, 106, 0.5) 100%);
+    border-radius: 10px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .shopper__card_pic {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background-image: url('../../img/tovar.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  
+    top: -30px;
+  }
+  
+  .shopper__card_name {
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 0.938rem;
+    font-weight: 500;
+  }
+  
+  .shopper__card_buttonbox {
+    width: 140px;
+    height: 60px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .shopper__card_button {
+    width: 70%;
+    background-color: #fff;
+    height: 30px;
+    border-radius: 5px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .shopper__card_buttontext {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Helvetica;
+    color: #89196A;
+    font-size: 0.938rem;
+    font-weight: 700;
+  }
+  
+  .shopper__card_buttonsmall {
+    width: 30px;
+    background-color: #fff;
+    height: 30px;
+    border-radius: 5px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .shopper__card_buttonicon {
+    width: 20px;
+    height: 20px;
+    -webkit-mask: url('../../img/svg/question.svg') no-repeat center;
+    mask: url('../../img/svg/question.svg') no-repeat center;
+    background-color: #89196A;
+  }
+  
+  .shopper__card_text {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 0.938rem;
+    font-weight: 500;
+    opacity: 0.7;
+  }
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.06);
+  }
+}

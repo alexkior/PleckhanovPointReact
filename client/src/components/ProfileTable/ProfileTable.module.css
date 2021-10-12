@@ -1,0 +1,100 @@
+
+.profileTable {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+
+.profileTable__header {
+  padding-top: 40px;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 2fr 7fr 4fr 5fr 5fr 4fr 7fr 7fr 6fr;
+  grid-template-rows: 1fr;
+  column-gap: 4px;
+  row-gap: 4px;
+}
+
+.profileTable__header_box {
+  height: 30px;
+
+  border-radius: 5px;
+  background: linear-gradient(270deg, rgba(13, 71, 145, 1) 0%, rgba(137, 25, 106, 1) 100%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileTable__header_text {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.profileTable__row {
+  padding-top: 10px;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 2fr 7fr 4fr 5fr 5fr 4fr 7fr 7fr 6fr;
+  grid-template-rows: 1fr;
+  column-gap: 4px;
+  row-gap: 4px;
+}
+
+.profileTable__row_box {
+  height: 30px;
+
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.profileTable__row_boxCentered {
+  height: 30px;
+
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileTable__row_boxButton {
+  background-color: #D17E00;
+}
+
+.profileTable__row_buttonText {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.profileTable__row_text {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: 700;
+  
+}

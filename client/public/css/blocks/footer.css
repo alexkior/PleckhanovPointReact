@@ -1,0 +1,131 @@
+.footer {
+  margin-top: 40px;
+  width: 100%;
+  height: 200px;
+  justify-self: flex-end;
+
+  background-image: url('../../img/slide-1.jpg');
+}
+
+.footer_background {
+  width: 100%;
+  height: 200px;
+  background-color: #171938e1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer__section_carousel {
+  bottom: 200px;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  max-height: 200px;
+  z-index: -1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+  background-position: center;
+}
+
+.footer__section_carousel-background {
+  width: 100vw;
+  height: 100vh;
+  animation: grow infinite alternate ease-in-out 10s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__inner {
+  width: 60%;
+  
+
+  display: flex;
+  flex-direction: row;
+  align-items:  flex-start;
+  justify-content: space-between;
+}
+
+.footer__part {
+  padding-top: 40px;
+}
+
+.footer__part_content {
+  margin: 0;
+  padding: 0;
+list-style: none;
+}
+
+.footer__part_list {
+  margin: 0;
+  padding: 10px 0px 0px 0px;
+  list-style: none;
+}
+
+.footer__title {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.footer__text {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: medium;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 270px;
+    justify-self: flex-end;
+  
+    background-image: url('../../img/slide-1.jpg');
+}
+
+.footer_background {
+  width: 100%;
+  height: 270px;
+  background-color: #171938e1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+  .footer__inner {
+    width: 90%;
+  
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items:  flex-start;
+    justify-content: space-between;
+  }
+
+  .footer__part {
+    width: 40%;
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer {
+    display: none;
+  }
+}

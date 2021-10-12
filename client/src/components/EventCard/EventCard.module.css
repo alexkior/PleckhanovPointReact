@@ -1,0 +1,201 @@
+
+.event__card {
+  cursor: pointer;
+  height: 450px;
+  width: 100%;
+  min-width: 250px;
+  background: #27294E;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.event__card_inner {
+  width: 80%;
+  height: 98%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4fr 2fr 2fr 2fr 3fr 3fr;
+  justify-items: start;
+  justify-content: start;
+  align-items: start;
+  align-content: start;
+}
+
+
+.event__card_name {
+  width: 100%;
+  margin: 0px;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 1.375rem;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+
+  align-self: center;
+  justify-self: center;
+
+  grid-area: 'event-name';
+}
+
+.event__card_button {
+  width: 100%;
+  background-color: #fff;
+  height: 40px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.event__card_buttontext {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #89196A;
+  font-size: 0.938rem;
+  font-weight: 600;
+
+}
+
+.event__card_infobox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.event__card_infotitle {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.event__card_infotext {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 0.87rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .event__card {
+    cursor: pointer;
+    height: 450px;
+    width: 100%;
+    min-width: 250px;
+    background: #27294E;
+    border-radius: 10px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .event__card_inner {
+    width: 80%;
+    height: 98%;
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 2fr 2fr 2fr 3fr 3fr;
+    justify-items: start;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+  }
+  
+  
+  .event__card_name {
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    text-decoration: none;
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 1.375rem;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+  
+    align-self: center;
+    justify-self: center;
+  
+    grid-area: 'event-name';
+  }
+  
+  .event__card_button {
+    width: 100%;
+    background-color: #fff;
+    height: 40px;
+    border-radius: 5px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .event__card_buttontext {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Helvetica;
+    color: #89196A;
+    font-size: 0.938rem;
+    font-weight: 600;
+  
+  }
+  
+  .event__card_infobox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .event__card_infotitle {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+  
+  .event__card_infotext {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 0.87rem;
+    font-weight: 500;
+  }
+}

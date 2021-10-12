@@ -1,0 +1,165 @@
+
+.directionLeaders__card {
+  padding: 10px 0px 10px 0px;
+
+  height: 210px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.directionLeaders__card_inner {
+  width: 100%;
+  min-width: 120px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 120px;  
+  grid-template-rows: auto auto auto;
+  column-gap: 20px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.directionLeaders__card_pic {
+  width: 100px;
+  height: 100px;
+
+  background-image: url('../../img/maks.png');
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.directionLeaders__card_textPart {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 120px;
+  grid-template-rows: auto auto;
+  row-gap: 10px;
+
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.directionLeaders__card_name {
+  margin: 0;
+  padding: 10px 0px 0px 0px;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+color: #89196A;
+}
+
+.directionLeaders__card_directionBox {
+  height: 30px;
+  width: 100%;
+
+  border-radius: 5px;
+  background-color: #89196A;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.directionLeaders__card_directionText {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #fff;
+  font-size: 0.938rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .directionLeaders__card {
+    padding: 10px 0px 10px 0px;
+    background-color: #fff;
+    height: 210px;
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .directionLeaders__card_inner {
+    width: 100%;
+    min-width: 120px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 120px;  
+    grid-template-rows: auto auto auto;
+    column-gap: 20px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .directionLeaders__card_pic {
+    width: 100px;
+    height: 100px;
+  
+    background-image: url('../../img/maks.png');
+    background-size: cover;
+    border-radius: 50%;
+  }
+  
+  .directionLeaders__card_textPart {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 120px;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+  
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .directionLeaders__card_name {
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+  color: #89196A;
+  }
+  
+  .directionLeaders__card_directionBox {
+    height: 30px;
+    width: 100%;
+  
+    border-radius: 5px;
+    background-color: #89196A;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .directionLeaders__card_directionText {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Helvetica;
+    color: #fff;
+    font-size: 0.938rem;
+    font-weight: 500;
+  }
+}

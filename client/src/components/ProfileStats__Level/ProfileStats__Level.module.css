@@ -1,0 +1,59 @@
+.profileStats {
+  padding-top: 40px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 300px 300px;
+  row-gap: 40px;
+  align-content: start;
+  justify-items: start;
+}
+
+.profileStats__chartsProgress {
+  width: 100%;
+  min-width: 720px;
+  padding-top: 40px;
+  min-height: 250px;
+  display: grid; 
+  grid-template-columns: 600px 120px;
+  grid-template-rows: auto;
+  align-content: start;
+  justify-items: stretch;
+}
+
+.profileStats__chartsPies {
+  width: 100%;
+  min-width: 720px;
+  padding-top: 40px;
+  min-height: 250px;
+  display: grid; 
+  grid-template-columns: 300px 300px 120px;
+  grid-template-rows: auto;
+
+  align-content: start;
+  justify-items: stretch;
+}
+
+.profileStats__chartInfo {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 25px;
+  grid-auto-flow: row;
+  row-gap: 10px;
+  align-content: start;
+  justify-items: start;
+}
+
+.profileStats__chartInfo_text {
+  line-height: 20px;
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+  text-decoration: none;
+  font-family: Helvetica;
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: 700;
+}

@@ -1,0 +1,29 @@
+.shop__filters {
+  padding-top: 40px;
+  width: 100%;
+  min-height: 250px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+  grid-area: 'left-part';
+}
+
+@media only screen and (max-width: 1024px) {
+  .shop__filters {
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 100%;
+    min-height: 250px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    
+    grid-area: 'left-part';
+  }
+}
+
